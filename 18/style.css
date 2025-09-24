@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(https://pin.it/3Xde9XBCe) no-repeat center center/cover;
+}
+
+.container {
+  width: 1110px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  padding-top: 200px;
+}
+
+.show {
+  display: none;
+}
+
+input {
+  width: 800px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+}
+
+.header {
+  height: 100vh;
+  background-color: black;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.head-list {
+  width: 200px;
+}
+.head-list .list-group {
+  width: 200px;
+}
+.head-list .list-group li {
+  width: 200px;
+  font-size: 24px;
+  list-style: none;
+  line-height: 50px;
+}
+.head-list .list-group li a {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
+
