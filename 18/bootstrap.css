@@ -1,12 +1,12 @@
 body {
   background: url(/18/e22d9ac14d9c6a107b83aa1af3154fe9.jpg) no-repeat center center/cover;
 }
-/*!
+/* !
  * Bootstrap v4.1.0 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -272,7 +272,7 @@ button,
 html [type="button"],
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button;
+-webkit-appearance: button;
 }
 
 button::-moz-focus-inner,
