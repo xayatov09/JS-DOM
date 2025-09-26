@@ -1,0 +1,13 @@
+html,
+body {
+  margin: 40px;
+}
+
+input {
+  margin-bottom: 10px;
+  display: block;
+  outline: none !important;
+}
+.error {
+  border-bottom: 2px solid red;
+}

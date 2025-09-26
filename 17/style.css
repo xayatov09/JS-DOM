@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  padding: 50px;
+  background: #333333;
+  border-radius: 20px;
+}
+form h2 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+}
+input {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.password {
+  position: relative;
+}
+.password i {
+  position: absolute;
+  top: 8px;
+  right: 5px;
+  cursor: pointer;
+}
+.fa-eye {
+  display: none;
+}
+.check {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.check p {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 20px;
+  color: white;
+  margin-top: -4px;
+}
+.button {
+  width: 100%;
+  cursor: pointer;
+  transition: 0.5s;
+  height: 40px;
+  border-radius: 5px;
+}
+.button a {
+  text-decoration: none;
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.error {
+  box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.874);
+}
+
+.buttonLink {
+  cursor: no-drop;
+}
+.main {
+  width: 1320px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.content {
+  width: 700px;
+  height: 400px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  border: 1px solid red;
+  border-radius: 5px;
+  background-color: #333333b1;
+  position: relative;
+}
+.content img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  transition: 0.5s;
+  position: absolute;
+  bottom: -100px;
+}
+
+.clicked {
+  height: 400px !important;
+  width: 700px !important;
+  border-radius: 5px !important;
+  bottom: 0px !important;
+  left: 0px !important;
+}
